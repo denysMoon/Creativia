@@ -1,0 +1,131 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+.bigred{
+	font-size: 20px;
+	color: red;
+}
+
+body{
+    max-width: 1400px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    height: 70px;
+    background-color: #06060a;
+}
+.header_1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.header_menu{
+    width: 1000px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.header_menu nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+.header_menu_1 li a{
+    color: #7a7a7b;
+    font-size: 18px;
+}
+.header_logo{
+    position: absolute;
+}
+.header_logo img{
+    display: block;
+}
+.header_logo h1{
+    display: block;
+    position: absolute;
+    color: #c6c6c6;
+    font-size: 35px;
+    margin-top: 15px;
+    margin-left: 60px;
+}
+.section_1_2{
+    position: absolute;
+}
+.section_1_3{
+    display: block;
+    font-size: 30px;
+    font-weight: 900;
+    color: #ffffff;
+    margin-top: 300px;
+    margin-left: 600px;
+}
+.section_1_span{
+    color: #d00f36;
+}
+.section_1_4{
+    width: 600px;
+    margin-top: 40px;
+    margin-left: 400px;
+}
+.section_1_4 p{
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+.section_1_4{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 490px;
+}
+.section_1_4 button{
+    width: 170px;
+    height: 50px;
+    font-size: 20px;
+}
+.section_1_4_1{
+    background: #ff0036;
+}
+.section_1_4_2{
+    background: #131313;
+    color: #fff;
+}
+
+
+
+
